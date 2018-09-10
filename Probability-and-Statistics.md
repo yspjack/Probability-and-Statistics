@@ -19,8 +19,8 @@
 - 交换律：$A+B=B+A$，$AB=BA$
 - 结合律：$(A+B)+C=A+(B+C)$，$(AB)C=A(BC)$
 - 分配律：$(A+B)C=AC+BC$，$(AB)+C=(A+C)(B+C)$
-- 德摩根公式：$\overline{\sum\limits*{i}A_i}=\prod\limits*{i}\overline{A*i}$，$\overline{\prod\limits*{i}A*i}=\sum\limits*{i}\overline{A_i}$
+- 德摩根公式：$\overline{\sum\limits_{i}A_i}=\prod\limits_{i}\overline{A_i}$，$\overline{\prod\limits_{i}A_i}=\sum\limits_{i}\overline{A_i}$
 
 > 例：试将事件$A+B+C$表示为互不相容的事件之和。  
 > 解：利用$A-B=A-AB=A\overline{B}$，$A+B=A+(B-A)=A+(B-AB)$或$A+B=(A-AB)+AB+(B-AB)$，得到
-> $$A+B+C=A+(B+C)=A+(B+C)\overline{A}=A+(B+C\overline{B})\overline{A}=A+B\overline{A}+C\overline{B}\overline{A}$$
+> $$ A+B+C=A+(B+C)=A+(B+C)\overline{A}=A+(B+C\overline{B})\overline{A}=A+B\overline{A}+C\overline{B}\overline{A} $$
